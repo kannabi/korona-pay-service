@@ -4,9 +4,9 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class KoronapayserviceApplication {
+public class KoronaPayServiceApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(KoronapayserviceApplication.class, args);
+        SpringApplication.run(KoronaPayServiceApplication.class, args);
     }
 }
