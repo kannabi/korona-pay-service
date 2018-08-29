@@ -16,7 +16,7 @@ apply plugin: 'org.springframework.boot'
 apply plugin: 'io.spring.dependency-management'
 
 group = 'com.droptable'
-version = '0.0.1-SNAPSHOT'
+version = '0.1'
 sourceCompatibility = 1.8
 
 repositories {
@@ -30,6 +30,8 @@ dependencies {
 
     implementation group: 'org.springframework.boot', name: 'spring-boot-starter-web', version: '2.0.4.RELEASE'
     implementation 'com.squareup.retrofit2:retrofit:2.4.0'
+    implementation 'com.squareup.retrofit2:converter-jackson:2.1.0'
+    implementation "com.squareup.retrofit2:adapter-rxjava2:2.3.0"
     implementation "io.reactivex.rxjava2:rxjava:2.2.1"
     implementation group: 'io.springfox', name: 'springfox-swagger2', version: '2.0.1'
     compile group: 'io.springfox', name: 'springfox-swagger-ui', version: '2.0.2'

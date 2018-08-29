@@ -1,12 +1,17 @@
 package com.droptable.koronapayservice.pay.dao;
 
 public class Response {
+
     private int status;
+
     private String description;
 
     public Response(int status, String description) {
         this.status = status;
         this.description = description;
+    }
+
+    public Response() {
     }
 
     public int getStatus() {
